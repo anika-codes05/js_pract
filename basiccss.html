@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: red;
+        }
+        .first{
+            color: blue;
+        }
+        #check{
+            color: chartreuse !important;
+        }
+
+    </style>
+</head>
+<body>
+     <p class="first" id="check" style="color: rgb(2, 78, 78);">specificity-> observe here element -> class->id->style (it picks the property according to specificity ) now if used !important (bad practice)the it will overrider all other order</p><hr>
+     <p style="color: blueviolet;"> </p>
+
+</body>
+</html>

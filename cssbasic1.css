@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+/* class stylling for a group of objects  */
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: larger;
+}
+#first:hover{
+    color: rgb(204, 4, 57);
+    background-color: rgb(235, 204, 100);
+    
+}
