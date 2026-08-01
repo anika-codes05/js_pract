@@ -1,0 +1,32 @@
+/* p{
+    position:static;
+} */
+ div{
+    display: inline-block;
+    width:150px;
+    height:200px;
+    background-color: aqua;
+    border: 1px solid black;
+ }
+ /* .box{
+    position:relative;
+    left:15px;
+    top:100px;
+ } */
+  #box3{
+    position:relative;
+    top:100px;
+    left:50px
+  }
+  /* #box1{
+    position:fixed;
+  } */
+  .wrapper{
+    height:1000px;
+    width: 100vw;
+    background-color: blueviolet;
+  }
+  #box4{
+    position: sticky;
+    top:0px;
+  }
