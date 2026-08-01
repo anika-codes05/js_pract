@@ -1,0 +1,28 @@
+.box{
+    border: 1px solid black;
+    height:200px;
+    width:150px;
+    background-image: linear-gradient(white,pink);
+    background-image: linear-gradient(to right,blue,green);
+    background-image: linear-gradient(to bottom,green,pink);
+    background-image: linear-gradient(to bottom right,green,pink,red);
+    background-image: linear-gradient(45deg ,green,pink);
+    background-image: linear-gradient(orange,white,green);
+
+}
+.mydiv{
+    border: 1px solid black;
+    height:200px;
+    width:200px; 
+    margin:10px;
+    background-image: radial-gradient(circle,pink,red,blue,orange);
+    background-image: radial-gradient(yellow 5%,blue 80% ,red 15%,white);
+}
+
+.div3{
+    border: 1px solid black;
+    height:200px;
+    width:150px;
+    margin: 20px;
+    background-image: conic-gradient(rgb(180, 83, 83),rgb(117, 177, 117));
+}
